@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Product — Maison Ivoire</title>
+<meta content="Maison Ivoire — considered skincare, hand-finished in Grasse." name="description"/>
+<meta content="#fbf7f1" name="theme-color"/>
+<link href="css/style.css" rel="stylesheet"/>
+<script src="js/i18n.js"></script>
+</head>
+<body data-page="product">
+<div aria-label="Store announcements" class="announce" role="region"><div class="announce__track"><div class="announce__group" data-i18n="refillable-recyclable-cruelty-free-complimentary"><span class="announce__item">Refillable, recyclable, cruelty-free</span><span aria-hidden="true" class="announce__star">✦</span><span class="announce__item">Complimentary shipping on orders over $120</span><span aria-hidden="true" class="announce__star">✦</span><span class="announce__item">Use code IVOIRE20 for 20% off your ritual</span><span aria-hidden="true" class="announce__star">✦</span><span class="announce__item">Two deluxe samples with every order</span><span aria-hidden="true" class="announce__star">✦</span></div><div aria-hidden="true" class="announce__group" data-i18n="refillable-recyclable-cruelty-free-complimentary"><span class="announce__item">Refillable, recyclable, cruelty-free</span><span aria-hidden="true" class="announce__star">✦</span><span class="announce__item">Complimentary shipping on orders over $120</span><span aria-hidden="true" class="announce__star">✦</span><span class="announce__item">Use code IVOIRE20 for 20% off your ritual</span><span aria-hidden="true" class="announce__star">✦</span><span class="announce__item">Two deluxe samples with every order</span><span aria-hidden="true" class="announce__star">✦</span></div></div></div>
+<header class="site-header">
+<button aria-expanded="false" aria-label="Menu" class="icon-btn menu-btn" data-menu-toggle="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+<nav aria-label="Primary" class="nav">
+<a class="nav__link" data-i18n="shop" href="shop.html">Shop</a>
+<a class="nav__link" data-i18n="bestsellers" href="shop.html?f=best">Bestsellers</a>
+<a class="nav__link" data-i18n="offers" href="shop.html?f=offers">Offers</a>
+</nav>
+<a aria-label="Ivoire — Maison Paris, home" class="logo" data-i18n="ivoire-maison-paris" href="index.html"><span class="logo__mark">IVOIRE</span><span class="logo__sub">MAISON · PARIS</span></a>
+<nav aria-label="Secondary" class="nav nav--right">
+<a class="nav__link" data-i18n="maison" href="about.html">Maison</a>
+<a class="nav__link" data-i18n="contact" href="contact.html">Contact</a>
+<div class="nav__icons">
+<button aria-expanded="false" aria-label="Search" class="icon-btn" data-search-toggle="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg></button>
+<a aria-label="Wishlist" class="icon-btn" href="wishlist.html"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M12 20s-8-5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 9c0 6-8 11-8 11z"></path></svg><span class="badge-count" data-wish-count=""></span></a>
+<a aria-label="Shopping bag" class="icon-btn" href="cart.html"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M5 8h14l-1 12H6z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg><span class="badge-count" data-cart-count=""></span></a>
+</div>
+</nav>
+<div aria-hidden="true" aria-label="Search" aria-modal="true" class="search" role="dialog"><div class="search__panel"><form class="search__form"><svg aria-hidden="true" class="icon search__icon" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><label class="sr-only" data-i18n="search-products" for="q">Search products</label><input autocomplete="off" class="search__input" id="q" placeholder="Search serums, ingredients, rituals…" type="search"/><button aria-label="Close search" class="search__close" data-search-close="" type="button"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"></path></svg></button></form><div class="search__popular"><p class="search__label" data-i18n="popular-searches">Popular searches</p><div class="search__chips"><a class="search__chip" data-i18n="serum" href="shop.html?q=Serum">Serum</a><a class="search__chip" data-i18n="rose" href="shop.html?q=Rose">Rose</a><a class="search__chip" data-i18n="ceramide" href="shop.html?q=Ceramide">Ceramide</a><a class="search__chip" data-i18n="hyaluronic" href="shop.html?q=Hyaluronic">Hyaluronic</a><a class="search__chip" data-i18n="lipstick" href="shop.html?q=Lipstick">Lipstick</a></div></div></div></div>
+<div class="mobile-nav"><a data-i18n="shop" href="shop.html">Shop</a><a data-i18n="bestsellers" href="shop.html?f=best">Bestsellers</a><a data-i18n="offers" href="shop.html?f=offers">Offers</a><a data-i18n="maison" href="about.html">Maison</a><a data-i18n="contact" href="contact.html">Contact</a></div>
+</header>
+<main class="page page--pdp">
+<nav aria-label="Breadcrumb" class="crumbs" id="crumbs"></nav>
+<div class="pdp" id="product"></div>
+<section aria-labelledby="related-title" class="related">
+<h2 class="related__title" data-i18n="you-may-also-love" id="related-title">You may <em>also love</em></h2>
+<div class="product-grid" id="related-grid"></div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer__grid">
+<div class="footer__brand">
+<div class="footer__logo" data-i18n="ivoire">IVOIRE</div>
+<p class="footer__tagline" data-i18n="considered-formulas-for-skin-that">Considered formulas for skin that looks — and feels — quietly luminous.</p>
+<h2 class="footer__heading" data-i18n="join-the-maison">Join the Maison</h2>
+<p class="footer__lead" data-i18n="early-access-to-launches-and">Early access to launches and 10% off your first order.</p>
+<form class="footer__news" data-newsletter="" novalidate="">
+<div class="field"><label class="sr-only" data-i18n="email-address" for="footer-email">Email address</label><input autocomplete="email" class="field__input" id="footer-email" placeholder="Your email address" type="email"/><button aria-label="Subscribe" class="field__submit" type="submit"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"></path></svg></button></div>
+<p class="form-msg" role="status"></p>
+</form>
+</div>
+<div><h2 class="footer__heading" data-i18n="shop">Shop</h2><ul class="footer__links">
+<li><a data-i18n="serums-oils" href="shop.html?c=serum">Serums &amp; Oils</a></li><li><a data-i18n="moisturizers" href="shop.html?c=moisturizer">Moisturizers</a></li>
+<li><a data-i18n="cleansers-mists" href="shop.html?c=cleanser">Cleansers &amp; Mists</a></li><li><a data-i18n="makeup" href="shop.html?c=makeup">Makeup</a></li><li><a data-i18n="body" href="shop.html?c=body">Body</a></li><li><a data-i18n="fragrance" href="shop.html?c=fragrance">Fragrance</a></li><li><a data-i18n="hair" href="shop.html?c=hair">Hair</a></li></ul></div>
+<div><h2 class="footer__heading" data-i18n="maison">Maison</h2><ul class="footer__links">
+<li><a data-i18n="our-story" href="about.html">Our story</a></li><li><a data-i18n="offers" href="shop.html?f=offers">Offers</a></li>
+<li><a data-i18n="wishlist" href="wishlist.html">Wishlist</a></li><li><a data-i18n="your-bag" href="cart.html">Your bag</a></li></ul></div>
+<div><h2 class="footer__heading" data-i18n="care">Care</h2><ul class="footer__links">
+<li><a data-i18n="contact-us" href="contact.html">Contact us</a></li><li><a data-i18n="shipping-over-120-free" href="contact.html">Shipping over $120 free</a></li><li><a data-i18n="30-day-returns" href="contact.html">30-day returns</a></li></ul></div>
+</div>
+<div class="footer__bottom">
+<p class="footer__legal" data-i18n="2026-maison-ivoire-cruelty-free">© 2026 Maison Ivoire. Cruelty-free · Refillable · Made in France.</p>
+<div class="socials">
+<a aria-label="Instagram" href="#"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><rect height="17" rx="5" width="17" x="3.5" y="3.5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" fill="currentColor" r=".6"></circle></svg></a>
+<a aria-label="Facebook" href="#"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><path d="M14 8.5h2.5V5H14a3.5 3.5 0 0 0-3.5 3.5V11H8v3.5h2.5V21H14v-6.5h2.4l.6-3.5H14V8.8c0-.2.1-.3.3-.3z"></path></svg></a>
+<a aria-label="YouTube" href="#"><svg aria-hidden="true" class="icon" viewbox="0 0 24 24"><rect height="12" rx="3.5" width="18" x="3" y="6"></rect><path d="M10.5 9.5v5l4.2-2.5z"></path></svg></a>
+</div>
+</div>
+</footer>
+<script src="js/auth.js"></script>
+<script src="js/app.js"></script>
+<script src="js/motion.js"></script>
+</body>
+</html>
